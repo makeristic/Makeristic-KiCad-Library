@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP E73-2G4M08S1C
+D nRF52840 BLE5 Module
+K BLE5, BLE, nRF52840
+F http://www.ebyte.com/en/pdf-down.aspx?id=627
+$ENDCMP
+#
+#End Doc Library
