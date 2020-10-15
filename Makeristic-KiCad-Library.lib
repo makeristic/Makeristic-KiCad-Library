@@ -59,4 +59,52 @@ X AIN7\P0.31 9 800 -1100 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model MLPF-WB55-01E3
+#/1985782/341306/2.47/6/4/Filter
+DEF MLPF-WB55-01E3 FL 0 30 Y Y 1 F N
+F0 "FL" 950 300 50 H V L CNN
+F1 "MLPF-WB55-01E3" 950 200 50 H V L CNN
+F2 "MLPFWB5501E3" 950 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf" 950 0 50 H I L CNN
+F4 "RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55" 950 -100 50 H I L CNN "Description"
+F5 "0.7" 950 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MLPF-WB55-01E3" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MLPF-WB55-01E3" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mlpf-wb55-01e3/stmicroelectronics" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "511-MLPF-WB55-01E3" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/MLPF-WB55-01E3?qs=vLWxofP3U2xV%2FkxL9PmCDA%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X GND4 2 0 -100 200 R 50 50 0 0 P
+X IN 3 0 -200 200 R 50 50 0 0 P
+X GND1 4 1100 -200 200 L 50 50 0 0 P
+X GND2 5 1100 -100 200 L 50 50 0 0 P
+X GND3 6 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FR05-S1-N-0-102
+#/10387149/341306/2.47/2/4/Antenna
+DEF FR05-S1-N-0-102 ANT 0 30 Y Y 1 F N
+F0 "ANT" 650 300 50 H V L CNN
+F1 "FR05-S1-N-0-102" 650 200 50 H V L CNN
+F2 "FR05S1N0102" 650 100 50 H I L CNN
+F3 "https://www.fractusantennas.com/files/UM_FR05_S1_N_0_102.pdf" 650 0 50 H I L CNN
+F4 "Compact Reach XtendTM (FR05-S1-N-0-102)  Bluetooth, Zigbee, 802.11 b/g/n WLAN" 650 -100 50 H I L CNN "Description"
+F5 "2.2" 650 -200 50 H I L CNN "Height"
+F6 "Fractus Antennas" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FR05-S1-N-0-102" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "128-FR05-S1-N-0-102" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Fractus-Antennas/FR05-S1-N-0-102?qs=OTrKUuiFdkYH9yRdQjVA9Q%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

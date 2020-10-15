@@ -6,4 +6,17 @@ K BLE5, BLE, nRF52840
 F http://www.ebyte.com/en/pdf-down.aspx?id=627
 $ENDCMP
 #
+$CMP MLPF-WB55-01E3
+D RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55
+K
+F https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf
+$ENDCMP
+#
+#
+$CMP FR05-S1-N-0-102
+D Compact Reach XtendTM (FR05-S1-N-0-102)  Bluetooth, Zigbee, 802.11 b/g/n WLAN
+K
+F https://www.fractusantennas.com/files/UM_FR05_S1_N_0_102.pdf
+$ENDCMP
+#
 #End Doc Library
