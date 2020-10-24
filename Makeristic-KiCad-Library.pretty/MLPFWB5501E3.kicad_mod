@@ -29,7 +29,7 @@
   (pad 4 smd rect (at 0.250 0.587 90) (size 0.300 0.300) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 0.250 -0 90) (size 0.300 0.300) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 0.250 -0.587 90) (size 0.300 0.300) (layers F.Cu F.Paste F.Mask))
-  (model MLPF-WB55-01E3.stp
+  (model Makeristic-KiCad-Library.3dshapes//MLPF-WB55-01E3.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -25,7 +25,7 @@
   (fp_line (start -4.5 2.5) (end -4.5 -2.5) (layer F.CrtYd) (width 0.1))
   (pad 1 smd rect (at -2.550 -0 0) (size 1.500 2.600) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.550 -0 0) (size 1.500 2.600) (layers F.Cu F.Paste F.Mask))
-  (model FR05-S1-N-0-102.stp
+  (model Makeristic-KiCad-Library.3dshapes//FR05-S1-N-0-102.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
