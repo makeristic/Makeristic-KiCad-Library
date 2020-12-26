@@ -31,7 +31,7 @@
   (pad 3 smd rect (at 0.325 1.525) (size 0.4 0.75) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.325 1.525) (size 0.4 0.75) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.975 1.525) (size 0.4 0.75) (layers F.Cu F.Paste F.Mask))
-  (model Makeristic-KiCad-Library.3dshapes//STMicroelectronics_-_STL6P3LLH6.step
+  (model Makeristic-KiCad-Library.3dshapes/STMicroelectronics_-_STL6P3LLH6.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

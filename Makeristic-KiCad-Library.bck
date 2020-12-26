@@ -46,8 +46,4 @@ D STM32F042K6T6
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
 $ENDCMP
 #
-$CMP STM32WL55CCUx
-F https://datasheet.octopart.com/STM32WL55CCU6-STMicroelectronics-datasheet-149178208.pdf
-$ENDCMP
-#
 #End Doc Library
