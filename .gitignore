@@ -1,0 +1,5 @@
+# Generated KiCad editor state and backups; keep library source and models.
+/fp-info-cache
+*.kicad_prl
+*-backups/
+~*.lck

@@ -64,7 +64,7 @@ ENDDEF
 DEF FR05-S1-N-0-102 ANT 0 30 Y Y 1 F N
 F0 "ANT" 650 300 50 H V L CNN
 F1 "FR05-S1-N-0-102" 650 200 50 H V L CNN
-F2 "FR05S1N0102" 650 100 50 H I L CNN
+F2 "Makeristic-KiCad-Library:FR05S1N0102" 650 100 50 H I L CNN
 F3 "https://www.fractusantennas.com/files/UM_FR05_S1_N_0_102.pdf" 650 0 50 H I L CNN
 F4 "Compact Reach XtendTM (FR05-S1-N-0-102)  Bluetooth, Zigbee, 802.11 b/g/n WLAN" 650 -100 50 H I L CNN "Description"
 F5 "2.2" 650 -200 50 H I L CNN "Height"
@@ -169,7 +169,7 @@ ENDDEF
 DEF MLPF-WB55-01E3 FL 0 30 Y Y 1 F N
 F0 "FL" 950 300 50 H V L CNN
 F1 "MLPF-WB55-01E3" 950 200 50 H V L CNN
-F2 "MLPFWB5501E3" 950 100 50 H I L CNN
+F2 "Makeristic-KiCad-Library:MLPFWB5501E3" 950 100 50 H I L CNN
 F3 "https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf" 950 0 50 H I L CNN
 F4 "RF Wireless Misc 2.4 GHz Low Pass Filter matched to STM32WB55" 950 -100 50 H I L CNN "Description"
 F5 "0.7" 950 -200 50 H I L CNN "Height"
@@ -195,7 +195,7 @@ ENDDEF
 DEF NRF9160-SICA-R7 MD 0 40 Y Y 3 L N
 F0 "MD" 0 300 50 H V L CNN
 F1 "NRF9160-SICA-R7" 0 400 50 H V L CNN
-F2 "Nordic_Semiconductor_ASA-NRF9160-SICA-R7-*" 0 500 50 H I L CNN
+F2 "Makeristic-KiCad-Library:Nordic_Semiconductor_ASA-NRF9160-SICA-R7-MFG" 0 500 50 H I L CNN
 F3 "https://infocenter.nordicsemi.com/pdf/nRF9160_PS_v1.0.pdf" 0 600 50 H I L CNN
 F4 "+85°C" 0 700 50 H I L CNN "ambient temperature range high"
 F5 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"
@@ -363,7 +363,7 @@ ENDDEF
 DEF PCM12SMTR SW 0 40 Y Y 1 L N
 F0 "SW" 0 300 50 H V L CNN
 F1 "PCM12SMTR" 0 400 50 H V L CNN
-F2 "CK-PCM12SMTR-*" 0 500 50 H I L CNN
+F2 "Makeristic-KiCad-Library:CK-PCM12SMTR-MFG" 0 500 50 H I L CNN
 F3 "https://www.ckswitches.com/media/1424/pcm.pdf" 0 600 50 H I L CNN
 F4 "No" 0 700 50 H I L CNN "automotive"
 F5 "Switch" 0 800 50 H I L CNN "category"
@@ -412,7 +412,7 @@ ENDDEF
 DEF SKRPADE010 SW 0 40 Y Y 1 L N
 F0 "SW" 0 0 50 H V L CNN
 F1 "SKRPADE010" 0 100 50 H V L CNN
-F2 "ALPS-SKRPADE010-*" 0 200 50 H I L CNN
+F2 "Makeristic-KiCad-Library:ALPS-SKRPADE010-0" 0 200 50 H I L CNN
 F3 "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPADE010.html" 0 300 50 H I L CNN
 F4 "50 mA" 0 400 50 H I L CNN "Current Rating"
 F5 "16 VDC" 0 500 50 H I L CNN "Voltage Rating DC"
@@ -443,7 +443,7 @@ ENDDEF
 DEF STL6P3LLH6 Q 0 40 Y Y 1 L N
 F0 "Q" 0 400 50 H V L CNN
 F1 "STL6P3LLH6" 0 500 50 H V L CNN
-F2 "STMicroelectronics-PowerFLAT3.3x3.3-8465286-0-2-*" 0 600 50 H I L CNN
+F2 "Makeristic-KiCad-Library:STL6P3LLH6" 0 600 50 H I L CNN
 F3 "https://www.st.com/resource/en/datasheet/stl6p3llh6.pdf" 0 700 50 H I L CNN
 F4 "No" 0 800 50 H I L CNN "automotive"
 F5 "Trans" 0 900 50 H I L CNN "category"
@@ -582,7 +582,7 @@ DEF STM32WL55CCUx U 0 20 Y Y 1 F N
 F0 "U" -700 200 50 H V C CNN
 F1 "STM32WL55CCUx" -700 100 50 H V C CNN
 F2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" 0 550 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+F3 "https://www.st.com/resource/en/datasheet/stm32wl55cc.pdf" 0 200 50 H I C CNN
 DRAW
 S -550 0 650 -2400 0 1 0 f
 X PB3 1 -650 -100 100 R 50 50 1 1 B
@@ -627,13 +627,13 @@ X VDD 44 -150 100 100 D 50 50 1 1 W
 X VFBSMPS 45 750 -300 100 L 50 50 1 1 W
 X VDDSMPS 46 750 -100 100 L 50 50 1 1 W
 X VLXSMPS 47 750 -200 100 L 50 50 1 1 W
-X VSSSMPS 48 -50 -2500 100 U 50 50 1 1 O
+X VSSSMPS 48 -50 -2500 100 U 50 50 1 1 W
 X PB7 5 -650 -500 100 R 50 50 1 1 B
 X PB8 6 -650 -600 100 R 50 50 1 1 B
 X PA0 7 -650 -700 100 R 50 50 1 1 B
 X PA1 8 -650 -800 100 R 50 50 1 1 B
 X PA2 9 -650 -900 100 R 50 50 1 1 B
-X EXPOSED_PAD ~ 50 -2500 100 U 50 50 1 1 O
+X VSS 49 50 -2500 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
