@@ -12,4 +12,6 @@
 - [x] Inspect library files, history, source credits, and model references (2026-10-26).
 - [x] Expand README and document provenance without blanket relicensing; ignore generated editor state. (2026-10-26).
 - [x] Update and verify GitHub description and topics. (2026-10-26).
-- [ ] Check links, review the full diff, commit, push, and open a PR.
+- [x] Check links, review the full diff, commit, push, and open a PR (2026-10-26).
+
+PR: https://github.com/makeristic/Makeristic-KiCad-Library/pull/1
