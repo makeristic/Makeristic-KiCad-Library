@@ -19,14 +19,14 @@ git clone https://github.com/makeristic/Makeristic-KiCad-Library.git
 
 1. Keep the checkout at a stable local path. In KiCad's symbol-library manager, add `Makeristic-KiCad-Library.lib` as a legacy library named `Makeristic-KiCad-Library`. A newer KiCad release may require importing or converting it into a new library; keep the original files when doing so.
 2. In the footprint-library manager, add `Makeristic-KiCad-Library.pretty` with the same nickname. Choose a project-specific library table when sharing a board so that other contributors can reproduce the setup.
-3. Review each symbol's footprint assignment. Several imported symbols contain bare names or wildcard suggestions rather than a fully qualified library ID. Assign the actual footprint from this library or an installed standard KiCad library before updating a PCB.
-4. Review 3D-model paths in the footprint editor. Some paths are relative to `Makeristic-KiCad-Library.3dshapes`, while ALPS, C&K, and STM32F042 footprints refer to `eec.models`. Repoint those references to the appropriate local model where available.
+3. In **Preferences → Configure Paths**, define `MAKERISTIC_KICAD_LIBRARY` as the absolute path to this checkout. The footprint model paths use `${MAKERISTIC_KICAD_LIBRARY}/Makeristic-KiCad-Library.3dshapes/`, so they do not depend on the active board's directory.
+4. Review each symbol's footprint assignment before updating a PCB. Seven symbols have exact assignments to the supplied footprints. `JS203011JCQN` has no supplied footprint, and `STM32F042K6T6` retains a wildcard because the collection offers three land-pattern variants; select the intended variant explicitly. `STM32WL55CCUx` references KiCad's standard `Package_DFN_QFN` library, which must be installed separately.
 
 Two referenced models, `STMicroelectronics_-_STM32F042K6T6.step` and `STMicroelectronics_-_STL6P3LLH6.step`, are absent from this checkout. Missing 3D models affect rendering; inspect the actual pad geometry independently. No library-table files are supplied, so cloning alone does not register these libraries in KiCad.
 
 ## Status and verification
 
-These are legacy KiCad library files collected in 2020. They have not been migrated as part of the documentation update. Check pin numbering, pad dimensions, package variant, orientation, and manufacturer datasheets for every part before using it in a new design. Inclusion here does not establish independent electrical or manufacturing validation.
+These are legacy KiCad library files collected in 2020. The [correctness audit](docs/code-audit-report.md) records import checks, footprint/model-reference fixes, and the datasheet-backed correction of the STM32WL55 exposed ground pin to pad 49. The files retain their legacy formats. Check pin numbering, pad dimensions, package variant, orientation, and manufacturer datasheets for every part before using it in a new design. Inclusion here does not establish electrical or manufacturing validation of a board.
 
 Related designs include [Feather_STM32WB55](https://github.com/makeristic/Feather_STM32WB55) and [STUSB4500_Breakout](https://github.com/makeristic/STUSB4500_Breakout). The [Feather](https://github.com/makeristic/Adafruit_Feather) and [USB-C Feather](https://github.com/makeristic/Adafruit_Feather_USB-C) repositories provide board templates.
 

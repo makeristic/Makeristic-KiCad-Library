@@ -53,7 +53,7 @@
   (pad 30 smd roundrect (at -1.2 -4.175001) (size 0.549999 1.649999) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5))
   (pad 31 smd roundrect (at -2.000001 -4.175001) (size 0.549999 1.649999) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5))
   (pad 32 smd roundrect (at -2.799999 -4.175001) (size 0.549999 1.649999) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5))
-  (model eec.models/STMicroelectronics_-_STM32F042K6T6.step
+  (model ${MAKERISTIC_KICAD_LIBRARY}/Makeristic-KiCad-Library.3dshapes/STMicroelectronics_-_STM32F042K6T6.step
     (offset (xyz 0 0 1.269999980926514))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -23,7 +23,7 @@
   (pad 1 smd rect (at -2.075 -1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 2.075 1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -2.075 1.075) (size 1.05 0.65) (layers F.Cu F.Paste F.Mask))
-  (model eec.models/ALPS_-_SKRPADE010.step
+  (model ${MAKERISTIC_KICAD_LIBRARY}/Makeristic-KiCad-Library.3dshapes/ALPS_-_SKRPADE010.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
